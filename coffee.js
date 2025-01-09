@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $("#two").owlCarousel({
+        items:1,
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:3000,
+        startPosition:1,
+    })
+})
